@@ -12,7 +12,7 @@ from monai.transforms import (
     LoadImage,
     Resize,
     ScaleIntensity,
-    Spacing
+    Spacing,
 )
 
 # constants
