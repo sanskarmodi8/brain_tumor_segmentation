@@ -24,6 +24,8 @@ st.markdown("---")
 def initiate_prediction():
     prediction = Prediction()
     model, _ = prediction.load_model()
+    if model is None:
+        print("none model")
     transform = prediction.get_transform()
     return prediction, model, transform
 

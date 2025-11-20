@@ -16,7 +16,7 @@ torch
 torchvision
 
 # Medical Imaging Libraries
-monai
+monai==1.4.0
 nibabel
 SimpleITK
 
